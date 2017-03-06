@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #878E99;
+}
+
+main{
+    margin: 0px auto 0px auto;
+}
+
+h1{
+    color: #9DB5B2;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: #A2C5AC;
+}
+
+a{
+    text-decoration: none;
+    color: #D3D5D4;
+}
+
+.skills::before{
+    content: open-quote;
+}
+
+.skills::after{
+    content: close-quote;
+}
+
+li{
+    color: #25272A;
+}
